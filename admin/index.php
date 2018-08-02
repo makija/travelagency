@@ -3,9 +3,9 @@
 require_once "../config.php";
 
 
-if(!Session::get('username')){
-header ("location:login.html");
-}
+// if(!Session::get('username')){
+// header ("location:login.html");
+// }
 
 /*$u= User::login($username,$pass);
 
